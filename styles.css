@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(255, 163, 178);
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+
+h1{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 0;
+    justify-content: center;
+
+}
+
+img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.login-container{
+background-color: white;
+padding: 3opx;
+border-radius: 15px;
+width: 350px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+label{
+    margin-bottom: 10px
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    color: black;
+    border: 1px solid #101010;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #ed4392;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.containerInter {
+    text-align: center;
+}
